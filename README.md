@@ -10,12 +10,19 @@ jekyll serve
 
 Push to web directory on github:
 ```
-rm -rf public_html
-mkdir public_html
+cd ../etaijacob.github.io/
+rm -rf assets             
+rm index.html         
+rm -rf libs               
+rm -rf projects
+
 ```
+
 ```
-./__deploy.sh
+cd ../www_personal/
+jekyll serve
 ```
+
 
 ## External Libraries
 - Framework: [Jekyll](http://jekyllrb.com/)
